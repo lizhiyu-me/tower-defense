@@ -1,0 +1,24 @@
+{
+  "name": "tower-defense",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000t\u0000o\u0000w\u0000e\u0000r\u0000-\u0000d\u0000e\u0000f\u0000e\u0000n\u0000s\u0000e\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lizhiyu-me/tower-defense.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lizhiyu-me/tower-defense/issues"
+  },
+  "homepage": "https://github.com/lizhiyu-me/tower-defense#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "three": "^0.140.0"
+  }
+}
