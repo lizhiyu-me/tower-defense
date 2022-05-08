@@ -16,7 +16,7 @@ export var map0_data = {
     ]
 };
 
-export function loadMap(mapData, scene) {
+export function loadMap(mapData, scene, clickableObjs) {
     var size_Y = mapData.data.length;
     var size_X = mapData.data[0].length;
 
@@ -39,6 +39,8 @@ export function loadMap(mapData, scene) {
                     var tmpbloc = basic_cube.clone();
                     tmpbloc.position.set(posx, 0, posy);
                     scene.add(tmpbloc);
+                    clickableObjs.push(tmpbloc);
+                    break;
                 case 1: // If [x/y] value is 0 - We are creating a road block
                     var tmpbloc = road_cube.clone();
                     tmpbloc.scale.y = 0.8;
